@@ -4,8 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-
-{% for item in site.projects %}
+{% assign items = site.projects | sort: 'display-order' %}
+{% for item in items %}
   <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
   <p>{{ item.description }}</p>
   {{ item.content }}
