@@ -17,8 +17,8 @@ title: Rhino Research
 email: luis@mcneel.com
 description: >- # this means to ignore newlines until "baseurl:"
   Site to report on research projects where Rhino and other McNeel products are utilized.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mcneel.github.io/research" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/research" # the subpath of your site, e.g. /blog
+url: "https://mcneel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  mcneel
 
